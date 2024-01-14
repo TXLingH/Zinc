@@ -23,6 +23,7 @@ class _baseMetmod:
         x = loca["x"] ; y = loca["y"]
         relx = loca["relx"] ; rely = loca["rely"]
         relwidth = loca["relwidth"] ; relheigh = loca["relheigh"]
+        self.frameworkObject.place(x = x, y = y, relx = relx, rely = rely, relheigh = relheigh, relwidth = relwidth)
 
 
 class Widgets:
