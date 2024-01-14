@@ -3,7 +3,8 @@ import ttkbootstrap as ttk
 """
 Zinc -- 一个基于 ttkbootstrap 项目的改进版本
 
-项目地址: 
+项目地址: https://github.com/BadTerminal/Zinc
+
 """
 
 class _baseMetmod:
@@ -50,9 +51,9 @@ class Window:
 
         ttk.Button(self.window, text = "Hello").pack()
     
-    def windowLaunch(self):
+    def launch(self):
         self.window.mainloop()
 
 
 window = Window()
-window.windowLaunch()
+window.launch()
