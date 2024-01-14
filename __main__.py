@@ -4,7 +4,6 @@ import ttkbootstrap as ttk
 Zinc -- 一个基于 ttkbootstrap 项目的改进版本
 
 项目地址: https://github.com/BadTerminal/Zinc
-
 """
 
 class _baseMetmod:
