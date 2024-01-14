@@ -11,4 +11,4 @@ Zinc (锌) 是一个基于ttkbootstrap项目的轻量化GUI框架,使用户能�
 import Zinc
 window = Zinc.Window(titleName = "Hello Zinc!")
 Zinc.Label(window.window, text = "Hello, Zinc!")
-window.launch()```
+window.launch()
